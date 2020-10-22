@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	transition-duration: 0.3s;
+}
+
 body,
 html {
 	margin: 0;
@@ -46,4 +51,64 @@ html {
 .btn:hover {
 	background-color: #3498db;
 	color: #fff;
+}
+
+.movies {
+	display: flex;
+	justify-content: center;
+}
+
+.movies__header {
+	background-color: #363b50;
+	width: 100%;
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 0.2rem;
+}
+
+.movies__container {
+	width: 50%;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.movie-input {
+	margin-top: 1rem;
+	width: 100%;
+	padding: 0.5rem;
+	border: 2px solid #363b50;
+}
+
+.movie-input:focus {
+	border: 2px solid #3498db;
+}
+
+.movies__container form {
+	width: 100%;
+}
+
+.movies__list {
+	margin: 1rem 0 1rem 0;
+}
+
+.movies__list-item {
+	width: 100%;
+	padding: 0.5rem;
+	background-color: #e8e7e7;
+	color: #000;
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delete-movie {
+	font-size: 2rem;
+}
+
+.delete-movie:hover {
+	color: red;
+	cursor: pointer;
 }
