@@ -11,7 +11,11 @@ class BaseLayout extends Component {
 					<Link className="header__title" to="/">
 						Movies
 					</Link>
+					<Link className="login-title" to="/login">
+						Login
+					</Link>
 				</div>
+
 				{children}
 			</div>
 		);

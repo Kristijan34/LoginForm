@@ -112,3 +112,50 @@ html {
 	color: red;
 	cursor: pointer;
 }
+
+.login-title {
+	color: #ffffff;
+	padding-left: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.forma-login {
+	background-color: #363b50;
+	height: 280px;
+	width: 286px;
+	margin: 115px auto;
+	border-radius: 7px;
+	color: White;
+
+	opacity: 0.9;
+}
+
+.spanEmail {
+	padding-left: 0.4rem;
+}
+
+.spanPassword {
+	padding-left: 0.4rem;
+}
+
+.inputEmail {
+	margin-bottom: 1rem;
+	outline: none;
+	width: 17rem;
+	height: 1.8rem;
+	margin-left: 0.4rem;
+}
+
+.inputPassword {
+	margin-bottom: 1rem;
+	outline: none;
+	width: 17rem;
+	height: 1.8rem;
+	margin-left: 0.4rem;
+}
+
+.login-submit {
+	margin-left: 6rem;
+	width: 6rem;
+}
